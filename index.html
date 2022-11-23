@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.css">
+    <title>Pendaftaran Diri</title>
+</head>
+<body>
+    <div class="content pb-3 pt-3">
+        <div class="image">
+            <img src="IMG-20221031-WA0001.jpg" alt="">
+        </div>
+        <div class="forum">
+            <h1 class="text-center">DATA DIRI</h1>
+            <form action="" method="post">
+                <label>Nama</label>
+                <input class="form-control" type="text" placeholder="Masukkan Nama Lengkap">
+                <br>
+                <label>No HP</label>
+                <input class="form-control" type="text" placeholder="Masukkan Nomor HP">
+                <label class="pt-4">Umur</label>
+                <select name="tahun" class="form-select">
+                    <option selected>Masukkan Umur</option>
+                    <option value="1">< 20 Tahun</option>
+                    <option value="2">20-29 Tahun</option>
+                    <option value="3">30-39 Tahun</option>
+                    <option value="4">40-49 Tahun</option>
+                    <option value="5">> 50 Tahun</option>
+                </select>
+                <label class="pt-4">Jenis Kelamin</label>
+                <br>
+                <input type="radio" name="Kelamin">
+                <label for="">Laki-laki</label>
+                <input type="radio" name="Kelamin">
+                <label for="">Perempuan</label>
+                <br>
+                <label class="pt-4">Pendidikan</label>
+                <select name="tahun" class="form-select">
+                    <option selected>Pilih Pendidikan Terakhir Anda</option>
+                    <option value="1">SD</option>
+                    <option value="2">SMP/Sederajat</option>
+                    <option value="3">SMA/Sederajat</option>
+                    <option value="4">Perguruan Tinggi</option>
+                </select>
+                <label class="pt-4">Alamat</label>
+                <input class="form-control" type="textarea">
+                <br>
+                <botton type="submit" class="btn btn-primary">SIMPAN</botton>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
